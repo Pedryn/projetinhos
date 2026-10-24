@@ -1,0 +1,76 @@
+*{box-sizing:border-box;font-family:"Inter",Segoe UI,Arial,sans-serif}
+body{margin:0;background:#0f1724;color:#e6eef8}
+
+/* HEADER */
+header{display:flex;align-items:center;justify-content:space-between;padding:12px 20px;background:#071127;box-shadow:0 2px 8px rgba(0,0,0,0.3)}
+h1{margin:0;font-size:20px;color:#60a5fa;display:flex;align-items:center;gap:6px}
+#user-area{display:flex;align-items:center;gap:8px}
+
+/* CONTROLS */
+.controls{display:flex;gap:8px;padding:12px;flex-wrap:wrap;align-items:center}
+input,select,button{padding:8px 10px;border-radius:6px;border:1px solid #23314a;background:#0b1220;color:#e6eef8;font-size:14px}
+select{cursor:pointer}
+button{cursor:pointer;font-weight:600;transition:all .2s}
+
+/* BUTTONS */
+.btn-primary{background:linear-gradient(135deg,#2563eb,#1e40af);border:none}
+.btn-primary:hover{background:linear-gradient(135deg,#1d4ed8,#1e3a8a);transform:translateY(-1px)}
+.btn-secondary{background:#2a2a2a;border:none}
+.btn-secondary:hover{background:#333}
+.btn-accent{background:linear-gradient(135deg,#22c55e,#15803d);border:none}
+.btn-accent:hover{background:linear-gradient(135deg,#16a34a,#166534);transform:translateY(-1px)}
+
+/* TABLES */
+.table-area{padding:0 12px}
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:14px}
+th,td{padding:10px;border-bottom:1px solid #23314a;text-align:left}
+th{color:#7aa2f7;text-transform:uppercase;font-size:13px;letter-spacing:.5px}
+tr:hover{background:#071a2e}
+.green{color:#22c55e}
+.red{color:#ef4444}
+
+/* MODAL BASE */
+#modal, #meus-ativos {
+  position:fixed; inset:0;
+  background:rgba(0,0,0,0.6);
+  backdrop-filter:blur(4px);
+  display:none; justify-content:center; align-items:center;
+  z-index:999;
+  animation:fadeIn .3s ease;
+}
+
+#modal-content, .ma-container {
+  background:#1e1e1e;
+  color:#f0f0f0;
+  border-radius:16px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.45);
+  padding:24px 28px;
+  width:90%;
+  max-width:480px;
+  animation:slideUp .3s ease;
+  position:relative;
+}
+
+#modal-title{font-size:1.4rem;font-weight:600;text-align:center;margin-bottom:8px;color:#60a5fa}
+
+/* MODAL CONTENTS */
+#modal-body input{width:100%;padding:10px 12px;border:none;outline:none;border-radius:8px;background-color:#2a2a2a;color:#fff;font-size:.95rem;transition:background .2s;margin-bottom:6px}
+#modal-body input:focus{background-color:#333}
+#modal-body button{background:linear-gradient(135deg,#2563eb,#1e40af);color:#fff;border:none;padding:10px 16px;border-radius:8px;cursor:pointer;font-weight:600;font-size:.95rem;transition:all .2s;margin-top:6px}
+#modal-body button:hover{background:linear-gradient(135deg,#1d4ed8,#1e3a8a);transform:translateY(-2px)}
+#modal-close{position:absolute;top:14px;right:20px;background:transparent;color:#bbb;font-size:1.6rem;border:none;cursor:pointer;transition:color .2s}
+#modal-close:hover{color:#fff}
+
+/* MEUS ATIVOS */
+.ma-container{max-width:900px;width:90%;padding:24px 28px;background:#1e1e1e;color:#f0f0f0;border-radius:16px;animation:slideUp .3s ease}
+.ma-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.ma-header h2{margin:0;color:#60a5fa}
+.ma-header button{background:none;border:none;color:#bbb;font-size:1.8rem;cursor:pointer}
+.ma-header button:hover{color:#fff}
+.ma-form{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.ma-form input{flex:1;min-width:120px;background:#2a2a2a;border:none;border-radius:8px;padding:8px;color:#fff}
+.ma-form input:focus{background:#333}
+
+/* ANIMAÇÕES */
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes slideUp{from{transform:translateY(40px);opacity:0}to{transform:translateY(0);opacity:1}}

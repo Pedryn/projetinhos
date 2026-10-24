@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Monitor B3 - Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📈 Monitor B3</h1>
+    <div id="user-area">
+      <span id="user-info">(não logado)</span>
+      <button id="btn-login" class="btn-primary">Login</button>
+      <button id="btn-logout" class="btn-secondary" style="display:none">Logout</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="controls">
+      <label>Ordenar:
+        <select id="select-sort">
+          <option>Mais Barato</option>
+          <option>Mais Caro</option>
+          <option>A-Z</option>
+          <option>Z-A</option>
+        </select>
+      </label>
+      <input id="input-search" placeholder="Buscar ticker ou nome...">
+      <button id="btn-meus-ativos" class="btn-accent" style="display:none">Meus Ativos</button>
+    </section>
+
+    <section class="table-area">
+      <table id="tbl-tickers">
+        <thead><tr><th>Ticker</th><th>Nome</th><th>Preço</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- Modal Genérico -->
+  <div id="modal">
+    <div id="modal-content">
+      <button id="modal-close">&times;</button>
+      <div id="modal-title">Detalhes</div>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Modal Meus Ativos -->
+  <div id="meus-ativos">
+    <div class="ma-container">
+      <div class="ma-header">
+        <h2>📊 Meus Ativos</h2>
+        <button id="ma-close">&times;</button>
+      </div>
+
+      <div class="ma-form">
+        <input id="ma-ticker" placeholder="Ticker (ex: PETR4)">
+        <input id="ma-quantidade" placeholder="Quantidade">
+        <input id="ma-preco" placeholder="Preço médio (R$)">
+        <button id="ma-add" class="btn-primary">Adicionar</button>
+      </div>
+
+      <table id="tbl-meus">
+        <thead><tr><th>ID</th><th>Ticker</th><th>Quantidade</th><th>Preço Médio</th><th>Ações</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,453 @@
+{
+  "event": {
+    "attendance": 77106,
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "normaltime": 2,
+      "period1": 1,
+      "period2": 1
+    },
+    "awayTeam": {
+      "class": 4,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "disabled": false,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إف سي بايرن ميونيخ",
+          "ru": "Бавария Мюнхен"
+        },
+        "shortNameTranslation": {
+          "ar": "بايرن",
+          "bn": "বায়ার্ন",
+          "hi": "बायर्न"
+        }
+      },
+      "foundationDateTimestamp": -2204064000,
+      "fullName": "FC Bayern München",
+      "gender": "M",
+      "id": 2672,
+      "manager": {
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فينسنت كومباني",
+            "bn": "ভিনসেন্ট কোম্পানি",
+            "hi": "विन्सेंट कोम्पनी",
+            "ru": "Винсент Компани"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. كومباني",
+            "bn": "ভি. কোম্পানি",
+            "hi": "वी. कोम्पनी",
+            "ru": "В. Компани"
+          }
+        },
+        "id": 792129,
+        "name": "Vincent Kompany",
+        "shortName": "V. Kompany",
+        "slug": "vincent-kompany"
+      },
+      "name": "FC Bayern München",
+      "nameCode": "FCB",
+      "national": false,
+      "shortName": "Bayern",
+      "slug": "fc-bayern-munchen",
+      "sport": {
+        "id": 1,
+        "name": "Football",
+        "slug": "football"
+      },
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#cf142f",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "timeActive": [],
+      "type": 0,
+      "userCount": 3069899,
+      "venue": {
+        "capacity": 75024,
+        "city": {
+          "country": {
+            "alpha2": "DE",
+            "alpha3": "DEU",
+            "name": "Germany",
+            "slug": "germany"
+          },
+          "id": 19127,
+          "name": "Munich"
+        },
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أليانز أرينا",
+            "bn": "আলিয়াঞ্জ এরিনা",
+            "hi": "एलियांज एरिना",
+            "ru": "Арена Allianz"
+          },
+          "shortNameTranslation": {}
+        },
+        "hidden": false,
+        "id": 574,
+        "name": "Allianz Arena",
+        "slug": "allianz-arena",
+        "stadium": {
+          "capacity": 75024,
+          "name": "Allianz Arena"
+        },
+        "venueCoordinates": {
+          "latitude": 48.218808,
+          "longitude": 11.624664
+        }
+      }
+    },
+    "changes": {
+      "changeTimestamp": 1775595214,
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ]
+    },
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
+    "crowdsourcingDataDisplayEnabled": false,
+    "cupMatchesInRound": 2,
+    "currentPeriodStartTimestamp": 1775592239,
+    "customId": "xdbsEgb",
+    "defaultOvertimeLength": 15,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "detailId": 1,
+    "eventFilters": {
+      "category": [
+        "club"
+      ],
+      "gender": [
+        "M"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ]
+    },
+    "eventState": {},
+    "feedLocked": true,
+    "finalResultOnly": false,
+    "hasEventPlayerHeatMap": true,
+    "hasEventPlayerStatistics": true,
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "homeScore": {
+      "current": 1,
+      "display": 1,
+      "normaltime": 1,
+      "period1": 0,
+      "period2": 1
+    },
+    "homeTeam": {
+      "class": 4,
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "disabled": false,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ريال مدريد",
+          "bn": "রিয়াল মাদ্রিদ",
+          "hi": "रियल मैड्रिड",
+          "ru": "Реал Мадрид"
+        },
+        "shortNameTranslation": {}
+      },
+      "foundationDateTimestamp": -2140387200,
+      "fullName": "Real Madrid",
+      "gender": "M",
+      "id": 2829,
+      "manager": {
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوزيه مورينيو",
+            "ru": "Жозе Моуринью"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. مورينيو",
+            "ru": "Ж. Моуринью"
+          }
+        },
+        "id": 53418,
+        "name": "José Mourinho",
+        "shortName": "J. Mourinho",
+        "slug": "jose-mourinho"
+      },
+      "name": "Real Madrid",
+      "nameCode": "RMA",
+      "national": false,
+      "shortName": "Real Madrid",
+      "slug": "real-madrid",
+      "sport": {
+        "id": 1,
+        "name": "Football",
+        "slug": "football"
+      },
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#004996",
+        "text": "#004996"
+      },
+      "timeActive": [],
+      "type": 0,
+      "userCount": 8082198,
+      "venue": {
+        "capacity": 83186,
+        "city": {
+          "country": {
+            "alpha2": "ES",
+            "alpha3": "ESP",
+            "name": "Spain",
+            "slug": "spain"
+          },
+          "id": 18283,
+          "name": "Madrid"
+        },
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سانتياغو برنابيو",
+            "bn": "সান্তিয়াগো বার্নাব্যু",
+            "hi": "सैंटियागो बर्नबेउ",
+            "ru": "Стадион Бернабеу"
+          },
+          "shortNameTranslation": {}
+        },
+        "hidden": false,
+        "id": 754,
+        "name": "Bernabéu",
+        "slug": "santiago-bernab-u",
+        "stadium": {
+          "capacity": 83186,
+          "name": "Bernabéu"
+        },
+        "venueCoordinates": {
+          "latitude": 40.453,
+          "longitude": -3.6883
+        }
+      }
+    },
+    "id": 15632084,
+    "isEditor": false,
+    "referee": {
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "مايكل أوليفر",
+          "bn": "মাইকেল অলিভার",
+          "hi": "माइकल ओलिवर",
+          "ru": "Майкл Оливер"
+        },
+        "shortNameTranslation": {}
+      },
+      "games": 655,
+      "id": 65702,
+      "name": "Michael Oliver",
+      "redCards": 50,
+      "slug": "oliver-michael",
+      "sport": {
+        "id": 1,
+        "name": "Football",
+        "slug": "football"
+      },
+      "yellowCards": 2297,
+      "yellowRedCards": 40
+    },
+    "roundInfo": {
+      "cupRoundType": 4,
+      "name": "Quarterfinals",
+      "round": 27,
+      "slug": "quarterfinals"
+    },
+    "season": {
+      "editor": false,
+      "id": 76953,
+      "name": "UEFA Champions League 25/26",
+      "year": "25/26"
+    },
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "slug": "real-madrid-fc-bayern-munchen",
+    "startTimestamp": 1775588400,
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "time": {
+      "currentPeriodStartTimestamp": 1775592239,
+      "injuryTime1": 1,
+      "injuryTime2": 4
+    },
+    "tournament": {
+      "category": {
+        "country": {},
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "bn": "ইউরোপ",
+            "hi": "यूरोप",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        },
+        "flag": "europe",
+        "id": 1465,
+        "name": "Europe",
+        "priority": 19,
+        "slug": "europe",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        }
+      },
+      "competitionType": 2,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا",
+          "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+          "hi": "यूईएफए चैंपियंस लीग",
+          "ru": "Лига чемпионов УЕФА, стадия плей-офф"
+        },
+        "shortNameTranslation": {}
+      },
+      "id": 23,
+      "isGroup": false,
+      "isLive": false,
+      "name": "UEFA Champions League, Knockout stage",
+      "priority": 716,
+      "slug": "uefa-champions-league-knockout-stage",
+      "uniqueTournament": {
+        "category": {
+          "country": {},
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "bn": "ইউরোপ",
+              "hi": "यूरोप",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          },
+          "flag": "europe",
+          "id": 1465,
+          "name": "Europe",
+          "priority": 19,
+          "slug": "europe",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "country": {},
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري أبطال أوروبا",
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka",
+            "ru": "Лига чемпионов УЕФА"
+          },
+          "shortNameTranslation": {}
+        },
+        "hasEventPlayerStatistics": true,
+        "hasPerformanceGraphFeature": false,
+        "hasRounds": true,
+        "id": 7,
+        "name": "UEFA Champions League",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "slug": "uefa-champions-league",
+        "userCount": 1164579
+      }
+    },
+    "venue": {
+      "capacity": 83186,
+      "city": {
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 18283,
+        "name": "Madrid"
+      },
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سانتياغو برنابيو",
+          "bn": "সান্তিয়াগো বার্নাব্যু",
+          "hi": "सैंटियागो बर्नबेउ",
+          "ru": "Стадион Бернабеу"
+        },
+        "shortNameTranslation": {}
+      },
+      "hidden": false,
+      "id": 754,
+      "name": "Bernabéu",
+      "slug": "santiago-bernab-u",
+      "stadium": {
+        "capacity": 83186,
+        "name": "Bernabéu"
+      },
+      "venueCoordinates": {
+        "latitude": 40.453,
+        "longitude": -3.6883
+      }
+    },
+    "winnerCode": 2
+  }
+}

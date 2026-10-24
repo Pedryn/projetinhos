@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jogador</title>
+</head>
+<body>
+
+<h1>Detalhes do jogador</h1>
+
+<div id="player"></div>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const id = params.get("id");
+
+document.getElementById("player").innerHTML = `
+  <p>ID do jogador: ${id}</p>
+  <p>Depois vamos puxar stats 🔥</p>
+`;
+</script>
+
+</body>
+</html>

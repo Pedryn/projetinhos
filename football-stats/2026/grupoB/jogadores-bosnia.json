@@ -1,0 +1,10 @@
+{
+  "goleiros": [
+    {"name": "Mike Maignan",  "url": "https://www.transfermarkt.com.br/mike-maignan/leistungsdatendetails/spieler/182906/saison/2025/wettbewerb/0/plus/1"},
+    {"name": "Brice Samba",   "url": "https://www.transfermarkt.com.br/brice-samba/leistungsdatendetails/spieler/191056/saison/2025/wettbewerb/0/plus/1"}
+  ],
+  "linha": [
+    {"name": "Lucas Digne",         "url": "https://www.transfermarkt.com.br/lucas-digne/leistungsdatendetails/spieler/126664/saison/2025/wettbewerb/0/plus/1"},
+    {"name": "Jules Kounde",        "url": "https://www.transfermarkt.com.br/jules-kounde/leistungsdatendetails/spieler/412517/saison/2025/wettbewerb/0/plus/1"}
+  ]
+}

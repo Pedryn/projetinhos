@@ -1,0 +1,21 @@
+body {
+  font-family: Arial;
+  background: #111;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container div {
+  width: 45%;
+  border: 1px solid #444;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: orange;
+}

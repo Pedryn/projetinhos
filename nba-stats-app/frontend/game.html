@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Times</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Jogadores</h1>
+
+<div class="container">
+  <div>
+    <h2>Time da Casa</h2>
+    <div id="homeTeam"></div>
+  </div>
+
+  <div>
+    <h2>Visitante</h2>
+    <div id="awayTeam"></div>
+  </div>
+</div>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const homeId = params.get("home");
+const awayId = params.get("away");
+
+function loadTeam(teamId, elementId) {
+  fetch(`http://localhost:3000/team/${teamId}`)
+    .then(res => res.json())
+    .then(players => {
+      const div = document.getElementById(elementId);
+
+      players.forEach(p => {
+        const el = document.createElement("div");
+
+        el.innerHTML = `
+          <p>${p.first_name} ${p.last_name}</p>
+        `;
+
+        div.appendChild(el);
+      });
+    });
+}
+
+loadTeam(homeId, "homeTeam");
+loadTeam(awayId, "awayTeam");
+</script>
+
+</body>
+</html>

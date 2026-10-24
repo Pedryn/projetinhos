@@ -1,0 +1,120 @@
+{
+  "extra": null,
+  "player": {
+    "dateOfBirthTimestamp": 918691200,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "ar": "أندري لونين",
+        "bn": "অ্যান্ড্রি লুনিন",
+        "hi": "एंड्री लुनिन",
+        "ru": "Андрий Лунін"
+      },
+      "shortNameTranslation": {
+        "ar": "أ. لونين",
+        "bn": "এ. লুনিন",
+        "hi": "ए. लुनिन",
+        "ru": "А. Лунін"
+      }
+    },
+    "firstName": "Andriy",
+    "gender": "M",
+    "height": 191,
+    "id": 857574,
+    "jerseyNumber": "13",
+    "lastName": "Lunin",
+    "marketValueCurrency": "EUR",
+    "name": "Andriy Lunin",
+    "position": "G",
+    "proposedMarketValueRaw": {
+      "currency": "EUR",
+      "value": 11300000
+    },
+    "shortName": "A. Lunin",
+    "slug": "andriy-lunin",
+    "sofascoreId": "ALunin",
+    "userCount": 86657
+  },
+  "position": "G",
+  "statistics": {
+    "accurateLongBalls": 3,
+    "accurateOwnHalfPasses": 22,
+    "accuratePass": 22,
+    "aerialWon": 2,
+    "ballCarriesCount": 7,
+    "ballRecovery": 8,
+    "defensiveValueNormalized": -0.2,
+    "dribbleValueNormalized": 0.01,
+    "duelWon": 3,
+    "expectedAssists": 7.541e-05,
+    "goalAssist": 0,
+    "goalkeeperValueNormalized": 0.74,
+    "goalsPrevented": 0.4679,
+    "goodHighClaim": 1,
+    "keeperSaveValue": 1.4205,
+    "kilometersCovered": 5.53434,
+    "metersCoveredHighSpeedRunningKm": 0.03,
+    "metersCoveredJoggingKm": 1.46,
+    "metersCoveredRunningKm": 0.11,
+    "metersCoveredSprintingKm": 0,
+    "metersCoveredWalkingKm": 3.94,
+    "minutesPlayed": 90,
+    "numberOfSprints": 0,
+    "passValueNormalized": -0.01,
+    "possessionLostCtrl": 5,
+    "progressiveBallCarriesCount": 0,
+    "punches": 1,
+    "rating": 8,
+    "ratingVersions": {
+      "alternative": 7.4,
+      "original": 8
+    },
+    "savedShotsFromInsideTheBox": 3,
+    "saves": 5,
+    "statisticsType": {
+      "sportSlug": "football",
+      "statisticsType": "player"
+    },
+    "topSpeed": 25.452,
+    "totalBallCarriesDistance": 29.438796748291,
+    "totalClearance": 2,
+    "totalLongBalls": 8,
+    "totalOppositionHalfPasses": 4,
+    "totalOwnHalfPasses": 23,
+    "totalPass": 27,
+    "totalProgression": 13.177370375,
+    "totalShots": 0,
+    "touches": 43,
+    "wasFouled": 1
+  },
+  "team": {
+    "disabled": false,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "ar": "ريال مدريد",
+        "bn": "রিয়াল মাদ্রিদ",
+        "hi": "रियल मैड्रिड",
+        "ru": "Реал Мадрид"
+      },
+      "shortNameTranslation": {}
+    },
+    "gender": "M",
+    "id": 2829,
+    "name": "Real Madrid",
+    "nameCode": "RMA",
+    "national": false,
+    "shortName": "Real Madrid",
+    "slug": "real-madrid",
+    "sport": {
+      "id": 1,
+      "name": "Football",
+      "slug": "football"
+    },
+    "teamColors": {
+      "primary": "#ffffff",
+      "secondary": "#004996",
+      "text": "#004996"
+    },
+    "type": 0,
+    "userCount": 8101322
+  }
+}
